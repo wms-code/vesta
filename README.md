@@ -29,7 +29,7 @@ ssh root@your.server
 
 Download the installation script:
 ```bash
-curl -O http://vestacp.com/pub/vst-install.sh
+curl -O https://raw.githubusercontent.com/wms-code/vesta/master/install/vst-install.sh
 ```
 Then run it:
 ```bash
