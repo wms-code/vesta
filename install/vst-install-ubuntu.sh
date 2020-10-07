@@ -375,7 +375,7 @@ if [ "$interactive" = 'yes' ]; then
     read -p 'Would you like to continue [y/n]: ' answer
     if [ "$answer" != 'y' ] && [ "$answer" != 'Y'  ]; then
         echo 'Goodbye'
-        exit 1
+        # exit 1
     fi
 
     # Asking for contact email
